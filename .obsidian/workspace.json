@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Datatypes 1 - the built in types.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Datatypes 1 - the built in types"
+              "title": "README"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "5480dd21573f8b4a",
   "lastOpenFiles": [
-    "Topics/Operators 1 - Arithmetic and Bitwise operators.md",
+    "syllabus.pdf",
+    "CS1001_Programming_in_C_Syllabus_1724197614.pdf",
     "Topics/Datatypes 1 - the built in types.md",
+    "Topics/Operators 1 - Arithmetic and Bitwise operators.md",
     "Contents.md",
     "Topics/Arrays are pointers, except when they're not.md",
     "Topics/Hello World!.md",
@@ -193,7 +195,6 @@
     "Topics/IO 1 - Terminal based IO.md",
     "Topics/Statements - if,while,for... etc..md",
     "Topics/Operators 4 - Precedence & Associativity.md",
-    "Topics/Operators 3 - Misc operators.md",
     "topics/Compilation - a bit of theory",
     "topics/I/O 1 - Terminal based i",
     "topics/I",
