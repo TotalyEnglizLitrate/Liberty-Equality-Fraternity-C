@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "a6398447b3d4d1d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfcced7bb4248e91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5480dd21573f8b4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Datatypes 1 - the built in types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Datatypes 1 - the built in types"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f27ac2dda296fb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa55736f6cfb738c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "706300bb8e8724d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be4124ed70786ba1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ae221cdeef707f60",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d885f759e6d9535b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2a953da9a984c43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8edbf0e99b1880ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Contents.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Contents"
+            }
+          },
+          {
+            "id": "cac7fc95101ad23f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Contents.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Contents"
+            }
+          },
+          {
+            "id": "9806c4ca626edcdb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "254587a47d217531",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Contents.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Contents"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "5480dd21573f8b4a",
+  "lastOpenFiles": [
+    "Topics/Operators 1 - Arithmetic and Bitwise operators.md",
+    "Topics/Datatypes 1 - the built in types.md",
+    "Contents.md",
+    "Topics/Arrays are pointers, except when they're not.md",
+    "Topics/Hello World!.md",
+    "Tangents/Paths.md",
+    "Topics/Why Main?.md",
+    "Topics/Functions 1 - an introduction.md",
+    "Tangents",
+    "Operators 1 - Arithmetic and Bitwise operations.md",
+    "Topics/IO 2 - File IO.md",
+    "Topics/Functions 4 - Designing functions for structures.md",
+    "Topics/Structure Padding.md",
+    "Topics/Datatypes 3 - structs, unions, enums.md",
+    "Topics/Memory Management.md",
+    "Topics/Scopes & Lifetimes.md",
+    "Topics/Functions 3 - Recursion.md",
+    "Topics/Functions 2 - Call by reference.md",
+    "Topics/Two dimensional arrays and pointers.md",
+    "Topics/Pointers.md",
+    "Topics/Datatypes 2 - Arrays and Strings.md",
+    "Topics/The Linker.md",
+    "Topics/Compilation - a bit of theory & implementation detail.md",
+    "Topics/IO 1 - Terminal based IO.md",
+    "Topics/Statements - if,while,for... etc..md",
+    "Topics/Operators 4 - Precedence & Associativity.md",
+    "Topics/Operators 3 - Misc operators.md",
+    "topics/Compilation - a bit of theory",
+    "topics/I/O 1 - Terminal based i",
+    "topics/I",
+    "images/hello_world.png",
+    "images",
+    "images/Untitled.jpg",
+    "Topics",
+    "topics/topic",
+    "Untitled.jpg"
+  ]
+}
