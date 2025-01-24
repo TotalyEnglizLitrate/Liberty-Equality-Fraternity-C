@@ -1,1 +1,0 @@
-[[Datatypes 2 - Arrays and Strings|Next]]

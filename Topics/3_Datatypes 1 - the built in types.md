@@ -171,7 +171,7 @@ You probably want to just the compiler figure out if something should be in the 
 register.
 
 ### Scope modifiers
-Before you come here, read up on [[Scopes & Lifetimes|scopes]].
+Before you come here, read up on [[19_Scopes & Lifetimes|scopes]].
 `extern`
 it is used to declare a variable or function that is defined in another scope. It is not a type modifier in the classical sense, but rather a way of telling the compiler to look for the definition of a variable or function in another file/scope.
 ##### Multiple Files Example
@@ -306,4 +306,4 @@ if(x == 0) {           // Dangerous! Value is unpredictable
 - Always initialize variables before use
 - Use meaningful initial values
 - Use static analyzers for additional checks
-[[Operators 1 - An Introduction|Next]]
+[[4_Operators 1 - An Introduction|Next]]

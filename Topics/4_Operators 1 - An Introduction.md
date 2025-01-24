@@ -45,7 +45,8 @@ if (<condition>) {
 	<expression 1>;
 } else {
 	<expression 2>;
-}```
+}
+```
 
 `=` - assignment operator, assigns a value to a variable.
 - **Note:** can be chained like `a = b = c = 3;`
@@ -55,4 +56,4 @@ if (<condition>) {
 
 `,` - used to separate various things in specific places, e.g arrays, function arguments .
 
-[[Operators 2- Arithmetic and Bitwise Operators|Next]]
+[[5_Operators 2- Arithmetic and Bitwise operators|Next]]

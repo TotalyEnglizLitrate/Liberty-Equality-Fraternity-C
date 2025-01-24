@@ -84,4 +84,4 @@ a += 5 *= 2;  // equivalent to a = (a + (5 * 2)); a = 20
 
 Augmented assignment operators serve as short hand, that is also more readable than the conventional way of doing an operation on a variable and then storing it in the same variable.
 
-[[Statements - if,while,for... etc.|Next]]
+[[6_Statements - if,while,for... etc.|Next]]
