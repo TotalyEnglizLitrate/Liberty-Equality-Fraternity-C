@@ -306,4 +306,4 @@ if(x == 0) {           // Dangerous! Value is unpredictable
 - Always initialize variables before use
 - Use meaningful initial values
 - Use static analyzers for additional checks
-[[Operators 1 - Arithmetic and Bitwise operators|Next]]
+[[Operators 1 - An Introduction|Next]]
