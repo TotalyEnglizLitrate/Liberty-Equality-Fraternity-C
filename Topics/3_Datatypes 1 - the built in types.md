@@ -54,8 +54,8 @@ Opposite to long, a short int is smaller than a normal int, a `short int` takes 
 ```c
 int age = 25;                   // Basic integer
 unsigned int population = 50000;// Non-negative integer
-short studentCount = 32;         // Smaller range integer
-long bigNumber = 2147483647;     // Larger integer range
+short student_count = 32;         // Smaller range integer
+long big_number = 2147483647;     // Larger integer range
 ```
 
 | Type                               | Size            | Lower bound                      | Upper bound                         |
@@ -105,7 +105,7 @@ What about the  whole part, you ask? Well, we can get a little clever here, and 
 ```c
 float temperature = 98.6;        // Standard decimal number
 float pi = 3.14159f;             // Float with 'f' suffix
-double precisePI = 3.141592653589793; // Double precision
+double precise_pi = 3.141592653589793; // Double precision
 ```
 
 ## The character datatype
@@ -127,7 +127,7 @@ The `unsigned char` data type, on the other hand, can hold values between 0 and 
 ```c
 char grade = 'A';                // Single character
 char symbol = '$';               // Punctuation character
-unsigned char byteValue = 255;   // Extended character range
+unsigned char byte_value = 255;   // Extended character range
 ```
 
 ## The Meaning of Void
