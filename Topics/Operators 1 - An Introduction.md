@@ -53,6 +53,6 @@ if (<condition>) {
 `*=`,`/=`,`%=`,`+=`,`-=`,`<<=`,`>>=`,`&=`,`^=`, `|=` - augmented assignment operators,
 - `a <operator>= b;` => `a = a <operator> b`
 
-`,` - used to separate in specific places.
+`,` - used to separate various things in specific places, e.g arrays, function arguments .
 
 [[Operators 2- Arithmetic and Bitwise Operators|Next]]

@@ -1,1 +1,1 @@
-[[Statements - if,while,for... etc.|Next]]
+[[IO 1 - Terminal based IO|Next]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Why Main?.md",
+                "file": "Topics/Hello World!.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Main?"
+              "title": "Hello World!"
             }
           }
         ]
@@ -166,8 +166,8 @@
   },
   "active": "b1f397c48be2cd80",
   "lastOpenFiles": [
-    "Topics/Functions 1 - an introduction.md",
     "Topics/Why Main?.md",
+    "Topics/Functions 1 - an introduction.md",
     "Topics/Hello World!.md",
     "Contents.md",
     "syllabus.pdf",
