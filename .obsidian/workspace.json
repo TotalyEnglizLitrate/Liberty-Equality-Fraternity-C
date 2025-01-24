@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc657a370f5187b0",
+        "id": "d6e8732c8a2069f2",
         "type": "tabs",
         "children": [
           {
-            "id": "300d3f49a1f1fb54",
+            "id": "b1f397c48be2cd80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
-                "mode": "source",
+                "file": "Topics/Why Main?.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
+              "title": "Why Main?"
             }
           }
         ]
@@ -161,29 +161,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
-      "notion-like-tables:Create loom": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "300d3f49a1f1fb54",
+  "active": "b1f397c48be2cd80",
   "lastOpenFiles": [
-    "Topics/Operators 1 - An Introduction.md",
-    "Topics/Operators 4 - Misc Operators.md",
+    "Topics/Functions 1 - an introduction.md",
+    "Topics/Why Main?.md",
+    "Topics/Hello World!.md",
     "Contents.md",
+    "syllabus.pdf",
+    "Topics/Operators 1 - An Introduction.md",
+    "Topics/Statements - if,while,for... etc..md",
     "Topics/Operators 3 - Relational operators.md",
+    "Topics/Operators 4 - Misc Operators.md",
     "Topics/Operators 2- Arithmetic and Bitwise operators.md",
     "Topics/Datatypes 1 - the built in types.md",
-    "Topics/Why Main?.md",
     "Topics/Operators 5 - Precedence & Associativity.md",
     "Untitled.loom",
     "Tangents/Types of (primary) memory.md",
-    "Topics/Hello World!.md",
     "README.md",
-    "syllabus.pdf",
     "CS1001_Programming_in_C_Syllabus_1724197614.pdf",
     "Topics/Arrays are pointers, except when they're not.md",
     "Tangents/Paths.md",
-    "Topics/Functions 1 - an introduction.md",
     "Tangents",
     "Operators 1 - Arithmetic and Bitwise operations.md",
     "Topics/IO 2 - File IO.md",
@@ -195,8 +195,6 @@
     "Topics/Functions 3 - Recursion.md",
     "Topics/Functions 2 - Call by reference.md",
     "Topics/Two dimensional arrays and pointers.md",
-    "Topics/Pointers.md",
-    "Topics/Datatypes 2 - Arrays and Strings.md",
     "topics/Compilation - a bit of theory",
     "topics/I/O 1 - Terminal based i",
     "topics/I",

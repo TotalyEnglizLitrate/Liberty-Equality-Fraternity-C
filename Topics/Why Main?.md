@@ -22,7 +22,7 @@ In all seriousness, "just coz" actually means convention here. convention being 
 You can [[Why Main?#^edf75b|skip over]] the next bit if you want to, isn't strictly relevant
 ## A history of main
 
-The concept of main being a starting point probably stemmed from the idea of a main "routine" in IBM PC's in the days before C, or UNIX for that matter. When UNIX was being created, it would just look at a program and executing it from the very start, this had some technical limitations and so the idea of a custom starting point was introduced, and it was called main.
+The concept of main being a starting point probably stemmed from the idea of a main "routine" in IBM PC's in the days before C, or UNIX for that matter. When UNIX was being created, it would just look at a program and executing it from the very start, this had some technical limitations and so the idea of a custom starting point was introduced, and it was called main borrowing the name from the IBM PC's main coroutine.
 
 `main`'s role as the entry point of a program was later set in stone when the creators of C (who were also responsible for UNIX) decided to set main as the entry point, and pretty much all other languages that came later followed this convention.
 ## Variations of main
