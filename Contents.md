@@ -1,5 +1,5 @@
 1. [[1_Hello World!]]
-2. [[2_Why Main?]]
+2. [[2_Why Main]]
 3. [[3_Datatypes 1 - the built in types]]
 4. [[4_Operators 1 - An Introduction]]
 5. [[5_Operators 2- Arithmetic and Bitwise operators]]

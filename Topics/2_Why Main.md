@@ -19,7 +19,7 @@ Now that we know what a function is, we can break this down.
 So, why main? well, the answer is, just coz 🤷
 In all seriousness, "just coz" actually means convention here. convention being something that is agreed (or convened) upon by everyone (or atleast a significant portion of everyone).
 
-You can [[2_Why Main?#^edf75b|skip over]] the next bit if you want to, isn't strictly relevant
+You can [[2_Why Main#^edf75b|skip over]] the next bit if you want to, isn't strictly relevant
 ## A history of main
 
 The concept of main being a starting point probably stemmed from the idea of a main "routine" in IBM PC's in the days before C, or UNIX for that matter. When UNIX was being created, it would just look at a program and executing it from the very start, this had some technical limitations and so the idea of a custom starting point was introduced, and it was called main borrowing the name from the IBM PC's main coroutine.

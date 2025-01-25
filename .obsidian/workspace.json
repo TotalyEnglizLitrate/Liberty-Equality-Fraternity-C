@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "a6398447b3d4d1d4",
+    "id": "2e6fc5e27ad0ccaf",
     "type": "split",
     "children": [
       {
-        "id": "d6e8732c8a2069f2",
+        "id": "7960ad8797ea9029",
         "type": "tabs",
         "children": [
           {
-            "id": "36bbdad9b202290d",
+            "id": "137600f4cd9aecf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Operators 1 - An Introduction.md",
+                "file": "Topics/2_Why Main.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operators 1 - An Introduction"
+              "title": "2_Why Main"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4f27ac2dda296fb7",
+    "id": "ad304a15bdc0e234",
     "type": "split",
     "children": [
       {
-        "id": "fa55736f6cfb738c",
+        "id": "79384f9ba824adc7",
         "type": "tabs",
         "children": [
           {
-            "id": "706300bb8e8724d9",
+            "id": "4a6ce24e56c44bed",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "be4124ed70786ba1",
+            "id": "0166cb48f36d60b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "ae221cdeef707f60",
+            "id": "8b2fe9721dcf17da",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,25 +77,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5026054382324
+    "width": 300
   },
   "right": {
-    "id": "d885f759e6d9535b",
+    "id": "fa0cd68fa6526826",
     "type": "split",
     "children": [
       {
-        "id": "d2a953da9a984c43",
+        "id": "dac816b68602b5f2",
         "type": "tabs",
         "children": [
           {
-            "id": "8edbf0e99b1880ac",
+            "id": "e4678919358316b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contents.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "Topics/2_Why Main.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -103,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Contents"
+              "title": "Backlinks for 2_Why Main"
             }
           },
           {
-            "id": "cac7fc95101ad23f",
+            "id": "65e6d21086c440c1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Contents.md",
+                "file": "Topics/2_Why Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Contents"
+              "title": "Outgoing links from 2_Why Main"
             }
           },
           {
-            "id": "9806c4ca626edcdb",
+            "id": "775ddb0e13b446db",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,23 +134,22 @@
             }
           },
           {
-            "id": "254587a47d217531",
+            "id": "9a563c54b75df1aa",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Contents.md"
+                "file": "Topics/2_Why Main.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Contents"
+              "title": "Outline of 2_Why Main"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -164,61 +163,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "36bbdad9b202290d",
+  "active": "137600f4cd9aecf2",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Contents.md",
-    "Topics/Operators 1 - An Introduction.md",
-    "Topics/Operators 4 - Misc Operators.md",
-    "Topics/Operators 3 - Relational operators.md",
-    "Topics/Operators 2- Arithmetic and Bitwise operators.md",
-    "Topics/Datatypes 1 - the built in types.md",
-    "Topics/Why Main?.md",
-    "Topics/Operators 5 - Precedence & Associativity.md",
-    "Untitled.loom",
-    "Tangents/Types of (primary) memory.md",
-    "Topics/Hello World!.md",
-    "README.md",
-=======
-    "Topics/4_Operators 1 - An Introduction.md",
-    "Topics/3_Datatypes 1 - the built in types.md",
-    "Untitled.md",
-    "Contents.md",
-    "Topics/24_IO 2 - File IO.md",
-    "Topics/23_Functions 4 - Designing functions for structures.md",
-    "Topics/22_Structure Padding.md",
-    "Topics/21_Datatypes 3 - structs, unions, enums.md",
-    "Topics/20_Memory Management.md",
-    "Topics/19_Scopes & Lifetimes.md",
-    "Topics/18_Functions 3 - Recursion.md",
-    "Topics/17_Functions 2 - Call by reference.md",
-    "Topics/16_Functions 1 - an introduction.md",
-    "Topics/15_Two dimensional arrays and pointers.md",
-    "Topics/14_Arrays are pointers, except when they're not.md",
-    "Topics/13_Pointers.md",
-    "Topics/12_Datatypes 2 - Arrays and Strings.md",
-    "Topics/11_The Linker.md",
-    "Topics/10_Compilation - a bit of theory & implementation detail.md",
-    "Topics/9_IO 1 - Terminal based IO.md",
-    "Topics/8_Operators 4 - Misc Operators.md",
-    "Topics/7_Operators 3 - Relational operators.md",
     "Topics/6_Statements - if,while,for... etc..md",
-    "Topics/5_Operators 2- Arithmetic and Bitwise operators.md",
-    "Topics/2_Why Main?.md",
-    "Topics/1_Hello World!.md",
->>>>>>> origin/master
-    "syllabus.pdf",
-    "Untitled.loom",
-    "CS1001_Programming_in_C_Syllabus_1724197614.pdf",
-    "Tangents",
-    "topics/Compilation - a bit of theory",
-    "topics/I/O 1 - Terminal based i",
-    "topics/I",
-    "images/hello_world.png",
-    "images",
-    "images/Untitled.jpg",
-    "Topics",
-    "topics/topic",
-    "Untitled.jpg"
+    "Contents.md"
   ]
 }

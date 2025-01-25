@@ -6,7 +6,7 @@ A function in programming is more or less the same as a function in math. take t
 
 So, a function in programming is one that takes in some **defined input**, and (\*sometimes, we'll get to that) gives you some **defined output and/or error**(\*also not strictly true, but again, we'll get to that.)
 
-[[2_Why Main?|Go back to where you came from?]] 
+[[2_Why Main|Go back to where you came from?]] 
 
 # INCOMPLETE
 

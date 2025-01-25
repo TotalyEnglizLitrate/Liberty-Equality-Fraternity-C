@@ -62,4 +62,4 @@ engliz@lattitude5491 ~ $
 
 We have "put" a string, onto the terminal. puts will be covered in a [[9_IO 1 - Terminal based IO|later]] topic
 
-[[2_Why Main?|Next]]
+[[2_Why Main|Next]]
