@@ -11,6 +11,9 @@ if (<condition>) {
 	<thing to do if condition is not met>
 }
 ```
+
+The ternary operator discussed before is equivalent to a simple if else with only one statement in the if and else sections respectively.
+
 **Note:** the else part of an if-else statement is completely optional
 
 You can also check for different sets of conditions, say you have 3 conditions to check, you can chain together those conditions in the following manner
@@ -154,7 +157,7 @@ default:
 	puts("Invalid grade");
 }
 ```
-Now we can match the grades being in any case, if the lower case 'b' matches it just "falls though" to the capital B case. You might ask but the grade isn't a capital 'B' how would that execute. you are entirely justified in that, but switch works a little bit differently to how you think, C takes care of the shared execution when you have "fall through" cases such as this one. Moreover, it can do some black magic to jump directly to the desired case without any comparisons at all in some cases (if the compiler can figure out a way to do that, do note that this is highly dependent on your code).
+Now we can match the grades being in any case, for example, if the lower case 'b' matches it just "falls though" to the capital B case. You might ask but the grade isn't a capital 'B' how would that execute. you are entirely justified in that, but switch works a little bit differently to how you think, C takes care of the shared execution when you have "fall through" cases such as this one. Moreover, it can do some black magic to jump directly to the desired case without any comparisons at all in some cases (if the compiler can figure out a way to do that, do note that this is highly dependent on your code).
 # Looping Statements
 ### while / do while
 In many places, you have to not just check and do something based on a condition, but you have to repeat it again and again as long as the condition is true.
@@ -229,8 +232,65 @@ while (<condition>) {
 	<modification>
 }
 ```
+
+
+In all the statements discussed up until this point you can skip the surrounding `{}` if only one single statement is within the block.
+e.g
+```c
+if (x & 1) {
+	puts("odd");
+}
+```
+is the same as 
+```c
+if (x & 1)
+	puts("odd");
+```
 # Jump Statements
-### break/continue
+### break
+In the context of switch statements, we've already seen how the `break` statement is used to exit out of the switch block. However, `break` can also be used in the context of loops (while, do-while, for) to exit out of the loop prematurely.
+```c
+int i = 0;
+while (i < 10) {
+	if (i == 5) {
+		break;
+	}
+	printf("%d ", i);
+	i++;
+}
+```
+
+In this example, the loop will exit when `i` reaches 5, even though the condition `i < 10` is still true.
+### continue
+The `continue` statement is used to skip the rest of the current iteration and move on to the next one. It's often used in conjunction with a conditional statement to skip certain values of the loop.
+```c
+for (int i = 0; i < 10; i++) {
+	if (i % 2 == 0)
+		continue;
+	printf("%d ", i);
+}
+
+```
+In this example, the loop will skip printing even numbers and only print odd numbers.
 ### return
+As discussed before return just returns a value (or even nothing) from the function and ends the execution of the function immediately.
 ### goto
+
+The `goto` statement is used to jump to a labeled statement in the code. It's generally considered bad practice to use `goto` statements, as they can make the code harder to read and understand. The reason why is we humans are good at reading stuff in a linear fashion and goto just allows you to jump all over the place, nevertheless here's a simple loop implemented using goto.
+
+```c
+int i = 0;
+loop:
+	printf("%d ", i);
+	i++;
+	if (i < 10)
+		goto loop;
+```
+
+which is the same as,
+```c
+for (int i = 0; i < 10; i++)
+	printf("%d ", i);
+```
+
 [[7_Operators 3 - Relational operators|Next]]
