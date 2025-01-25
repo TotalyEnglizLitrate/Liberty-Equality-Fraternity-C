@@ -1,0 +1,1 @@
+[[14_Arrays are pointers, except when they're not|Next]]

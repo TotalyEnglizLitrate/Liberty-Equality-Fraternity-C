@@ -1,5 +1,5 @@
 
-The previously discussed [[Hello World!#^388301|Hello World]] has a lot of stuff that you have to just accept as is, practically the entire program. Though I will get to explaining all the bits eventually, it's going to stay that way for a while. We are just going to talk about this piece of code here (and it's variations).
+The previously discussed [[1_Hello World!#^388301|Hello World]] has a lot of stuff that you have to just accept as is, practically the entire program. Though I will get to explaining all the bits eventually, it's going to stay that way for a while. We are just going to talk about this piece of code here (and it's variations).
 
 ```c
 int main(void) {
@@ -8,7 +8,7 @@ int main(void) {
 ```
 
 
-Before we start, let's skip ahead a bit and read up on [[Functions 1 - an introduction#^14c3c5|what a "function" is]].
+Before we start, let's skip ahead a bit and read up on [[16_Functions 1 - an introduction#^14c3c5|what a "function" is]].
 Done? Alright, let's continue.
 
 Now that we know what a function is, we can break this down.
@@ -19,10 +19,10 @@ Now that we know what a function is, we can break this down.
 So, why main? well, the answer is, just coz 🤷
 In all seriousness, "just coz" actually means convention here. convention being something that is agreed (or convened) upon by everyone (or atleast a significant portion of everyone).
 
-You can [[Why Main?#^edf75b|skip over]] the next bit if you want to, isn't strictly relevant
+You can [[2_Why Main?#^edf75b|skip over]] the next bit if you want to, isn't strictly relevant
 ## A history of main
 
-The concept of main being a starting point probably stemmed from the idea of a main "routine" in IBM PC's in the days before C, or UNIX for that matter. When UNIX was being created, it would just look at a program and executing it from the very start, this had some technical limitations and so the idea of a custom starting point was introduced, and it was called main.
+The concept of main being a starting point probably stemmed from the idea of a main "routine" in IBM PC's in the days before C, or UNIX for that matter. When UNIX was being created, it would just look at a program and executing it from the very start, this had some technical limitations and so the idea of a custom starting point was introduced, and it was called main borrowing the name from the IBM PC's main coroutine.
 
 `main`'s role as the entry point of a program was later set in stone when the creators of C (who were also responsible for UNIX) decided to set main as the entry point, and pretty much all other languages that came later followed this convention.
 ## Variations of main
@@ -69,7 +69,7 @@ engliz@lattitude5491 ~ $
 ```
 
 If you change the code to return some other integer, say 1, or whatever your heart desires
-(\*not exactly, integers do have some limitations, which will be discussed in [[Datatypes 1 - the built in types|Datatypes 1]])
+(\*not exactly, integers do have some limitations, which will be discussed in [[3_Datatypes 1 - the built in types|Datatypes 1]])
 
 ```sh
 engliz@lattitude5491 ~ $ /tmp/ret_1
@@ -129,4 +129,4 @@ they are essentially passed to main using the two variables `argc` & `argv`. Whe
 
 void is discouraged in this form as well due to the same reasons.
 
-[[Datatypes 1 - the built in types|Next]]
+[[3_Datatypes 1 - the built in types|Next]]
