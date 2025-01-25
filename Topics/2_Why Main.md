@@ -125,7 +125,7 @@ engliz@lattitude5491 ~ $ cp path/to/source_file path/to/destination_file
 ```
 
 here, `path/to/source_file` & `path/to/destination_file` are "command line arguments",
-they are essentially passed to main using the two variables `argc` & `argv`. Where `argc` is the number of arguments passed in and `argv` is a list of the arguments (**Note:** it includes the programs name as well). So in the above example, `argc` would be 3 and`argv` would be `[cp, path/to/source_file, path_to_destination_file]`.  We will look at the reasoning behind the type of `argc` and `argv` at a later point, along with the internal representation of `argv`. // TODO link to the later points after it's done
+they are essentially passed to main using the two variables `argc` & `argv`. Where `argc` is the number of arguments passed in and `argv` is a list of the arguments (**Note:** it includes the programs name as well). So in the above example, `argc` would be 3 and`argv` would be `[cp, path/to/source_file, path_to_destination_file]`.  We will look at the reasoning behind the type of `argc` and `argv` at a later point, along with the internal representation of `argv`. #TODO link to the later points after it's done
 
 void is discouraged in this form as well due to the same reasons.
 
