@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7960ad8797ea9029",
+        "id": "67f396e96a087d86",
         "type": "tabs",
         "children": [
           {
-            "id": "137600f4cd9aecf2",
+            "id": "41db64434253cec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/6_Statements - if,while,for... etc..md",
+                "file": "Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6_Statements - if,while,for... etc."
+              "title": "Contents"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fa0cd68fa6526826",
@@ -163,17 +164,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "137600f4cd9aecf2",
+  "active": "41db64434253cec2",
   "lastOpenFiles": [
-    "tmp.md",
     "Topics/6_Statements - if,while,for... etc..md",
-    "Topics/2_Why Main.md",
+    "Topics/16_Functions 1 - an introduction.md",
+    "Contents.md",
     "Topics/7_Operators 3 - Relational operators.md",
-    "Topics/8_Operators 4 - Misc Operators.md",
     "Topics/5_Operators 2- Arithmetic and Bitwise operators.md",
     "Topics/4_Operators 1 - An Introduction.md",
     "Topics/3_Datatypes 1 - the built in types.md",
+    "Topics/2_Why Main.md",
     "Topics/1_Hello World!.md",
-    "Contents.md"
+    "tmp.md",
+    "Topics/8_Operators 4 - Misc Operators.md"
   ]
 }
