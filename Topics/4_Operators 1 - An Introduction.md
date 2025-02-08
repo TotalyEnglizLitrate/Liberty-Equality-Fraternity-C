@@ -23,7 +23,6 @@ Here's what they do, just look up their functionality because this is just going
 - **Note:** C doesn't have boolean values out of the box, so 0 is false and anything else is true, you can access boolean types by including the `stdbool.h` header.
 
 `sizeof` - takes in a datatype/variable and returns the amount of memory it takes up in bytes
-- **Note:** This is a compile time operator, i.e the size of the argument is calculated when you compile the program and is substituted in.
 
 `(<type>)` - type casting operator, already discussed.
 
