@@ -84,4 +84,33 @@ a += 5 *= 2;  // equivalent to a = (a + (5 * 2)); a = 20
 
 Augmented assignment operators serve as short hand, that is also more readable than the conventional way of doing an operation on a variable and then storing it in the same variable.
 
+# Increment and Decrement operators
+These operators are used to increment/decrement the value of a number (generally by 1, however pointer arithmetic does play a role which makes it sometimes not be 1 when used on a pointer).
+There are two variants of these operators:
+- Prefix
+- Postfix
+
+### Prefix increment and decrement
+In these variants of the operators, the value of the variable is incremented by 1 and is then used up by the expression.
+For example:
+```c
+int a = 2;
+int b = 3;
+b = b + ++a; // a = a + 1 = 3; b = b + a = 3 + 3 = 6;
+// And similarly for decrement
+b = b + --a; // a = a - 1 = 2; b = b + a = 6 + 2 = 8;
+```
+### Postfix increment and decrement
+In these variants of the operators the **current** value of the variable is used up the expression and then the original variable is incremented.
+For example
+```c
+int a = 2;
+int b = 3;
+b = b + a++; // b = b + a = 3 + 2 = 5; a = a + 1 = 3;
+// And similarly for decrement
+b = b + a--; // b = b + a = 5 + 3 = 8; a = a - 1 = 2;
+```
+
+**NOTE:** Using prefix and postfix operators together in the same expression is undefined behaviour and is compiler dependent, therefore it must be avoided.
+
 [[6_Statements - if,while,for... etc.|Next]]
